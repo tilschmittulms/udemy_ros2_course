@@ -1,1 +1,17 @@
+# ROS 2 Build Folders
+install/
+build/
+log/
+
+# VS Code & IDEs
 .vscode/
+.history/
+*.code-workspace
+
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Local databases (the culprit from earlier!)
+*.db
+*.vc.db
