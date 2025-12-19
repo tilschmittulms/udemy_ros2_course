@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="turtlesim_catch_them_call" exec="turtle_controller" name="turtle_controller"/>
+    <node pkg="turtlesim_catch_them_call" exec="turtle_spawner" name="turtle_spawner"/>
+</launch>
